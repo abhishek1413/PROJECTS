@@ -1,0 +1,31 @@
+.hi{
+    height: 200px;
+    width: 200px;
+    border: 2px solid black;
+ 
+}
+#grey{
+    background-color: rgb(128, 128, 128);
+}
+#white{
+    background-color: whitesmoke;
+}
+#blue{
+    background-color: blue;
+}
+#yellow{
+    background-color: yellow;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+
+}
+.ji{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+   text-align: center;
+}
